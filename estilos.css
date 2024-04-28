@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(253, 242, 233);
+}
+
+.encabezado {
+  background-image: url(./img/encabezado2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 30vh;
+}
+
+.menu-superior {
+  list-style: none;
+  text-align: center;
+}
+
+.menu-superior li {
+  display: inline-block;
+}
+
+.menu-superior a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  padding: 2rem;
+  font-size: 1.4rem;
+}

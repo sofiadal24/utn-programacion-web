@@ -3,20 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Mi Presentación</title>
   </head>
   <body>
-    <header>
-      <h1>Presentación</h1>
+    <header class="encabezado">
+      <nav>
+        <ul class="menu-superior">
+          <li><a href="index.html#mi-bio">Mi biografía</a></li>
+          <li><a href="index.html#lista-numerada">Lista ordenada</a></li>
+          <li><a href="index.html#lista-vinieta">Lista sin ordenar</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="./pages/pagina-1.html">Página 1</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <h2>Sofía Dalinger</h2>
-      <h3>Mi bio</h3>
+    <h1>Presentación</h1>
+    <h2 id="mi-nombre">Sofía Dalinger</h2>
+    <section id="mi-bio">
+      <h3>Mi biografía</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         culpa eveniet ducimus alias, aspernatur, libero, a maxime ratione rem
         vero modi aliquid! Quos rem ratione eos quidem cum, corrupti voluptate.
       </p>
+      <p>Me gusta cocinar</p>
+      <img src="img/Torta de Lima.jpg" alt="Torta de Lima" />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/G0f1ZU22qK4?si=XBL0qiia9q_yVMQL"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </section>
+    <section id="lista-numerada" class="lista-ordenada">
+      <h3>Listas ordenadas</h3>
+      <ol>
+        <li>Primavera</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+        <li>Verano</li>
+      </ol>
+    </section>
+    <section id="lista-vinieta" class="lista-sin-orden">
+      <h3>Listas sin ordenar</h3>
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miercoles</li>
+      <li>Jueves</li>
+      <li>Viernes</li>
+      <li>Sabado</li>
+      <li>Domingo</li>
+    </section>
+    <footer><a href="index.html#menu-inicio">Volver al inicio</a></footer>
   </body>
 </html>
